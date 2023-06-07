@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, 
+html {
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+h1 {
+  color: rgb(84, 200, 221);
+  z-index: 2;
+  position: absolute;
+  font-size: 1rem;
+  left: 50%;
+  top: 5%;
+  transform: translate(-50%, -25%);
+}
